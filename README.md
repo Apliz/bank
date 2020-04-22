@@ -19,7 +19,7 @@ I would like to store each date for each interaction.\
 \
 As a User,\
 So that I can manage my finaces.\
-I would like to be able to print my banks statement to the screen.\
+I would like to be able to print my banks statement to the screen.
 
 ## Output Example
 
