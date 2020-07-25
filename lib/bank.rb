@@ -18,7 +18,6 @@ class Bank
   end
 
   def withdraw(amount)
-    # @balance -= amount
     @statement.push([date(), nil, amount.to_f , @balance -= amount])
   end
 
