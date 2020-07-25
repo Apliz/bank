@@ -24,13 +24,15 @@ bank.deposit(float)
 bank.withdraw(float)
 ```
 
->Can view 'transactions'
+>Can view transactions
 
 ``` ruby
-date || credit || debit || balance
-14/01/2012 || || 500.00 || 2500.00
-13/01/2012 || 2000.00 || || 3000.00
-10/01/2012 || 1000.00 || || 1000.00
+bank.view_statement()
+
+# date || credit || debit || balance
+# 14/01/2012 || || 500.00 || 2500.00
+# 13/01/2012 || 2000.00 || || 3000.00
+#1 10/01/2012 || 1000.00 || || 1000.00
 ```
 
 ---
